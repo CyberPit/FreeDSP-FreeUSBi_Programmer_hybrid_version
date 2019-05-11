@@ -1,4 +1,4 @@
-1424450767249246
+1441700691295506
 744231181
 WE-CNSW_08058
 WE-CNSW_08058
@@ -13,6 +13,13 @@ Filter
 0
 4
 4
+AD8058ARZ
+SOIC127P600X175-8N
+R-8 (SOIC)
+Integrated Circuit
+0
+8
+8
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -24066,6 +24073,13 @@ MountingHole_8.4mm_M8_Pad_Via
 0
 0
 MyFootprints
+CMS-2414C
+DPQT DUAL 4POS SLIDE SWITCH P=2.0mm
+DPQT SLIDE
+0
+12
+12
+MyFootprints
 Logo_small
 
 
@@ -24073,7 +24087,70 @@ Logo_small
 0
 0
 MyFootprints
+Resistor_SMD+THTuniversal_0603to0805_RM2.5_HandSoldering_RevA_Date25Jun2010
+Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,
+Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,
+0
+2
+2
+MyFootprints
+Resistor_SMD+THTuniversal_0603to0805_RM5_HandSoldering_RevA_Date25Jun2010
+Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,
+Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,
+0
+6
+2
+MyFootprints
+Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010
+Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,
+Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,
+0
+6
+2
+MyFootprints
+Resistor_SMD+THTuniversal_0603to1206_RM5_HandSoldering_RevA_Date25Jun2010
+Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,
+Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,
+0
+4
+2
+MyFootprints
+Resistor_SMD+THTuniversal_0603to1206_RM10_HandSoldering_RevA_Date25Jun2010
+Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,
+Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,
+0
+6
+2
+MyFootprints
+Resistor_SMD+THTuniversal_0603to2010_RM10_HandSoldering_RevA_Date25Jun2010
+Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,
+Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,
+0
+6
+2
+MyFootprints
+Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering_RevA_Date25Jun2010
+Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,
+Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,
+0
+4
+2
+MyFootprints
 RJ-2410N
+
+
+0
+2
+2
+MyFootprints
+SOIC127P600X175-8N
+R-8 (SOIC)
+Integrated Circuit
+0
+8
+8
+MyFootprints
+Solder Jumper 2.0mm
 
 
 0

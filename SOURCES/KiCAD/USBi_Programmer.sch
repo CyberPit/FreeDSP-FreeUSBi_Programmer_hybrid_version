@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "freeUSBi V0.3"
-Date "2019-04-22"
-Rev "0.3"
+Title "freeUSBi V0.4"
+Date "2019-05-11"
+Rev "0.4"
 Comp "www.freedsp.cc"
 Comment1 "www.creativecommons.org/licenses/by-sa/4.0/legalcode"
 Comment2 ""
@@ -42,7 +42,7 @@ U 1 1 55DC6F72
 P 7350 4300
 F 0 "P2" H 7350 4600 50  0000 C CNN
 F 1 "CONN_02X05" H 7450 4000 50  0000 C CNN
-F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 7350 3100 60  0001 C CNN
+F 2 "fdsp_connector:IDC_Header_Straight_10pins" H 7350 3100 60  0001 C CNN
 F 3 "" H 7350 3100 60  0000 C CNN
 	1    7350 4300
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 55DC7A7D
 P 3200 2150
 F 0 "R1" V 3280 2150 50  0000 C CNN
 F 1 "49R9" V 3200 2150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3130 2150 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 3130 2150 30  0001 C CNN
 F 3 "" H 3200 2150 30  0000 C CNN
 	1    3200 2150
 	0    1    1    0   
@@ -75,7 +75,7 @@ U 1 1 55DC842C
 P 3200 2650
 F 0 "R2" V 3275 2650 43  0000 C CNN
 F 1 "470R" V 3200 2650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3130 2650 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 3130 2650 30  0001 C CNN
 F 3 "" H 3200 2650 30  0000 C CNN
 	1    3200 2650
 	0    1    1    0   
@@ -108,7 +108,7 @@ U 1 1 55DCA6C7
 P 3050 4400
 F 0 "D1" H 3050 4500 50  0000 C CNN
 F 1 "LED" H 3050 4300 50  0000 C CNN
-F 2 "LEDs:LED-3MM" H 3050 4400 60  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 3050 4400 60  0001 C CNN
 F 3 "" H 3050 4400 60  0000 C CNN
 	1    3050 4400
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 55DCA733
 P 3050 4950
 F 0 "D2" H 3050 5050 50  0000 C CNN
 F 1 "LED" H 3050 4850 50  0000 C CNN
-F 2 "LEDs:LED-3MM" H 3050 4950 60  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 3050 4950 60  0001 C CNN
 F 3 "" H 3050 4950 60  0000 C CNN
 	1    3050 4950
 	1    0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 55DCA7A3
 P 3050 5500
 F 0 "D3" H 3050 5600 50  0000 C CNN
 F 1 "LED" H 3050 5400 50  0000 C CNN
-F 2 "LEDs:LED-3MM" H 3050 5500 60  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 3050 5500 60  0001 C CNN
 F 3 "" H 3050 5500 60  0000 C CNN
 	1    3050 5500
 	1    0    0    -1  
@@ -141,7 +141,7 @@ U 1 1 55DCA80B
 P 2650 4400
 F 0 "R5" V 2730 4400 50  0000 C CNN
 F 1 "470R" V 2650 4400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2580 4400 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 2580 4400 30  0001 C CNN
 F 3 "" H 2650 4400 30  0000 C CNN
 	1    2650 4400
 	0    1    1    0   
@@ -152,7 +152,7 @@ U 1 1 55DCB6ED
 P 2650 4950
 F 0 "R6" V 2730 4950 50  0000 C CNN
 F 1 "470R" V 2650 4950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2580 4950 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 2580 4950 30  0001 C CNN
 F 3 "" H 2650 4950 30  0000 C CNN
 	1    2650 4950
 	0    1    1    0   
@@ -163,7 +163,7 @@ U 1 1 55DCB761
 P 2650 5500
 F 0 "R7" V 2730 5500 50  0000 C CNN
 F 1 "470R" V 2650 5500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2580 5500 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 2580 5500 30  0001 C CNN
 F 3 "" H 2650 5500 30  0000 C CNN
 	1    2650 5500
 	0    1    1    0   
@@ -292,7 +292,7 @@ U 1 1 55DD963C
 P 5500 4050
 F 0 "R3" V 5580 4050 50  0000 C CNN
 F 1 "10k" V 5500 4050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5430 4050 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 5430 4050 30  0001 C CNN
 F 3 "" H 5500 4050 30  0000 C CNN
 	1    5500 4050
 	1    0    0    -1  
@@ -314,7 +314,7 @@ U 1 1 55DD9B84
 P 5500 4350
 F 0 "R4" V 5580 4350 50  0000 C CNN
 F 1 "10k" V 5500 4350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5430 4350 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 5430 4350 30  0001 C CNN
 F 3 "" H 5500 4350 30  0000 C CNN
 	1    5500 4350
 	1    0    0    -1  
@@ -367,8 +367,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 2550 2900 2550
 Wire Wire Line
-	3050 2150 3025 2150
-Wire Wire Line
 	7650 4500 9600 4500
 Wire Wire Line
 	7650 4300 8250 4300
@@ -387,11 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 4100 8250 4100
 Wire Wire Line
-	5100 3900 5350 3900
-Wire Wire Line
 	6100 4500 6200 4500
-Wire Wire Line
-	5100 4500 5350 4500
 Wire Wire Line
 	6800 4500 6800 4200
 Wire Wire Line
@@ -413,10 +407,6 @@ Wire Wire Line
 Connection ~ 3450 4950
 Wire Wire Line
 	4400 2650 5100 2650
-Wire Wire Line
-	2400 4400 2475 4400
-Wire Wire Line
-	2500 5500 2450 5500
 Wire Wire Line
 	9100 4050 9100 4200
 Wire Wire Line
@@ -449,7 +439,7 @@ U 1 1 55DE295D
 P 2650 6050
 F 0 "R9" V 2730 6050 50  0000 C CNN
 F 1 "470R" V 2650 6050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2580 6050 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 2580 6050 30  0001 C CNN
 F 3 "" H 2650 6050 30  0000 C CNN
 	1    2650 6050
 	0    1    1    0   
@@ -460,13 +450,11 @@ U 1 1 55DE29FA
 P 3000 6050
 F 0 "D4" H 3000 6150 50  0000 C CNN
 F 1 "LED" H 3000 5950 50  0000 C CNN
-F 2 "LEDs:LED-3MM" H 3000 6050 60  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 3000 6050 60  0001 C CNN
 F 3 "" H 3000 6050 60  0000 C CNN
 	1    3000 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 6050 2450 6050
 $Comp
 L power:GND #PWR07
 U 1 1 55DE2BD6
@@ -534,8 +522,6 @@ Connection ~ 2200 2450
 Wire Wire Line
 	2900 2750 3900 2750
 Wire Wire Line
-	2900 2650 3025 2650
-Wire Wire Line
 	4400 2550 5100 2550
 Wire Wire Line
 	4400 2750 5100 2750
@@ -558,8 +544,6 @@ Wire Wire Line
 	7650 4400 8300 4400
 Wire Wire Line
 	4400 2850 4650 2850
-Wire Wire Line
-	2500 4950 2475 4950
 Wire Wire Line
 	6300 2500 6600 2500
 NoConn ~ 6600 2100
@@ -585,13 +569,7 @@ F 3 "" H 3450 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 5500 2825 5500
-Wire Wire Line
 	3450 5500 3200 5500
-Wire Wire Line
-	2800 4950 2850 4950
-Wire Wire Line
-	2800 4400 2850 4400
 Wire Wire Line
 	3200 4400 3450 4400
 $Comp
@@ -611,15 +589,11 @@ U 1 1 55DF0FD6
 P 6300 4200
 F 0 "R8" V 6225 4200 50  0000 C CNN
 F 1 "1M" V 6300 4200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6230 4200 30  0001 C CNN
+F 2 "MyFootprints:Resistor_SMD+THTuniversal_0603to0805_RM7.5_HandSoldering_RevA_Date25Jun2010" V 6230 4200 30  0001 C CNN
 F 3 "" H 6300 4200 30  0000 C CNN
 	1    6300 4200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5100 4200 5350 4200
-Wire Wire Line
-	6450 4200 6475 4200
 Wire Wire Line
 	6600 4200 6600 4250
 Connection ~ 3450 5500
@@ -743,8 +717,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 4400 3450 4100
 Wire Wire Line
-	5900 4200 6100 4200
-Wire Wire Line
 	5500 4200 5650 4200
 Wire Wire Line
 	5500 3900 5700 3900
@@ -764,8 +736,6 @@ Wire Wire Line
 	9600 4500 9600 4575
 Wire Wire Line
 	4650 2850 5050 2850
-Wire Wire Line
-	2800 6050 2825 6050
 $Comp
 L USBi_Programmer-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single Q3
 U 1 1 5C64FC9A
@@ -835,217 +805,39 @@ Wire Wire Line
 	5550 4850 5500 4850
 Wire Wire Line
 	5500 4850 5500 4500
-$Comp
-L Device:R R14
-U 1 1 5C662838
-P 6300 4325
-F 0 "R14" V 6380 4325 50  0000 C CNN
-F 1 "1M" V 6300 4325 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 4325 30  0001 C CNN
-F 3 "" H 6300 4325 30  0000 C CNN
-	1    6300 4325
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6450 4325 6475 4325
-Wire Wire Line
-	6475 4325 6475 4200
-Connection ~ 6475 4200
-Wire Wire Line
-	6475 4200 6600 4200
-Wire Wire Line
-	6150 4325 6100 4325
-Wire Wire Line
-	6100 4325 6100 4200
-Connection ~ 6100 4200
-Wire Wire Line
-	6100 4200 6150 4200
-$Comp
-L Device:R R15
-U 1 1 5C66BEB7
-P 5350 4350
-F 0 "R15" V 5430 4350 50  0000 C CNN
-F 1 "10k" V 5350 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5280 4350 30  0001 C CNN
-F 3 "" H 5350 4350 30  0000 C CNN
-	1    5350 4350
-	1    0    0    -1  
-$EndComp
-Connection ~ 5350 4200
-Wire Wire Line
-	5350 4200 5500 4200
-Connection ~ 5350 4500
-Wire Wire Line
-	5350 4500 5500 4500
-$Comp
-L Device:R R12
-U 1 1 5C66F6CD
-P 5350 4050
-F 0 "R12" V 5430 4050 50  0000 C CNN
-F 1 "10k" V 5350 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5280 4050 30  0001 C CNN
-F 3 "" H 5350 4050 30  0000 C CNN
-	1    5350 4050
-	1    0    0    -1  
-$EndComp
-Connection ~ 5350 3900
-Wire Wire Line
-	5350 3900 5500 3900
-$Comp
-L Device:R R10
-U 1 1 5C66F81D
-P 3200 1975
-F 0 "R10" V 3280 1975 50  0000 C CNN
-F 1 "49R9" V 3200 1975 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3130 1975 30  0001 C CNN
-F 3 "" H 3200 1975 30  0000 C CNN
-	1    3200 1975
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3050 1975 3025 1975
-Wire Wire Line
-	3025 1975 3025 2150
-Connection ~ 3025 2150
-Wire Wire Line
-	3025 2150 2900 2150
-Wire Wire Line
-	3350 1975 3400 1975
-Wire Wire Line
-	3400 1975 3400 2150
-$Comp
-L Device:R R11
-U 1 1 5C677246
-P 3225 2925
-F 0 "R11" V 3150 2925 43  0000 C CNN
-F 1 "470R" V 3225 2925 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3155 2925 30  0001 C CNN
-F 3 "" H 3225 2925 30  0000 C CNN
-	1    3225 2925
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3075 2925 3025 2925
-Wire Wire Line
-	3025 2925 3025 2650
-Connection ~ 3025 2650
-Wire Wire Line
-	3025 2650 3050 2650
-Wire Wire Line
-	3375 2925 3425 2925
-Wire Wire Line
-	3425 2925 3425 2650
-Connection ~ 3400 2150
-Wire Wire Line
-	3400 2150 3350 2150
-Wire Wire Line
-	3400 2150 3900 2150
-Connection ~ 3425 2650
-Wire Wire Line
-	3425 2650 3350 2650
-Wire Wire Line
-	3425 2650 3900 2650
-$Comp
-L Device:R R13
-U 1 1 5C6A91C9
-P 2650 4225
-F 0 "R13" V 2730 4225 50  0000 C CNN
-F 1 "470R" V 2650 4225 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 4225 30  0001 C CNN
-F 3 "" H 2650 4225 30  0000 C CNN
-	1    2650 4225
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 4225 2475 4225
-Wire Wire Line
-	2475 4225 2475 4400
-Connection ~ 2475 4400
-Wire Wire Line
-	2475 4400 2500 4400
-Wire Wire Line
-	2800 4225 2850 4225
-Wire Wire Line
-	2850 4225 2850 4400
-Connection ~ 2850 4400
-Wire Wire Line
-	2850 4400 2900 4400
-$Comp
-L Device:R R16
-U 1 1 5C6BC7CE
-P 2650 4775
-F 0 "R16" V 2730 4775 50  0000 C CNN
-F 1 "470R" V 2650 4775 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 4775 30  0001 C CNN
-F 3 "" H 2650 4775 30  0000 C CNN
-	1    2650 4775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 4775 2475 4775
-Wire Wire Line
-	2475 4775 2475 4950
-Wire Wire Line
-	2800 4775 2850 4775
-Wire Wire Line
-	2850 4775 2850 4950
-Connection ~ 2475 4950
-Wire Wire Line
-	2475 4950 2400 4950
-Connection ~ 2850 4950
-Wire Wire Line
-	2850 4950 2900 4950
-$Comp
-L Device:R R17
-U 1 1 5C6C2442
-P 2625 5325
-F 0 "R17" V 2705 5325 50  0000 C CNN
-F 1 "470R" V 2625 5325 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2555 5325 30  0001 C CNN
-F 3 "" H 2625 5325 30  0000 C CNN
-	1    2625 5325
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2475 5325 2450 5325
-Wire Wire Line
-	2450 5325 2450 5500
-Wire Wire Line
-	2775 5325 2825 5325
-Wire Wire Line
-	2825 5325 2825 5500
-Connection ~ 2450 5500
-Wire Wire Line
-	2450 5500 2400 5500
-Connection ~ 2825 5500
-Wire Wire Line
-	2825 5500 2900 5500
-$Comp
-L Device:R R18
-U 1 1 5C6CEF01
-P 2625 5875
-F 0 "R18" V 2705 5875 50  0000 C CNN
-F 1 "470R" V 2625 5875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2555 5875 30  0001 C CNN
-F 3 "" H 2625 5875 30  0000 C CNN
-	1    2625 5875
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2475 5875 2450 5875
-Wire Wire Line
-	2450 5875 2450 6050
-Wire Wire Line
-	2775 5875 2825 5875
-Wire Wire Line
-	2825 5875 2825 6050
-Connection ~ 2450 6050
-Wire Wire Line
-	2450 6050 2500 6050
-Connection ~ 2825 6050
-Wire Wire Line
-	2825 6050 2850 6050
 Connection ~ 3450 4400
-Text Notes 4175 6300 0    98   ~ 0
-Note:\nParrallel connected parts are selectable choice.\nPlace your desired type one . (SMD or TH)\nNot needed both.
+Wire Wire Line
+	2400 4400 2500 4400
+Wire Wire Line
+	2800 4400 2900 4400
+Wire Wire Line
+	2400 4950 2500 4950
+Wire Wire Line
+	2800 4950 2900 4950
+Wire Wire Line
+	2400 5500 2500 5500
+Wire Wire Line
+	2800 5500 2900 5500
+Wire Wire Line
+	2300 6050 2500 6050
+Wire Wire Line
+	2800 6050 2850 6050
+Wire Wire Line
+	2900 2650 3050 2650
+Wire Wire Line
+	3350 2650 3900 2650
+Wire Wire Line
+	2900 2150 3050 2150
+Wire Wire Line
+	3350 2150 3900 2150
+Wire Wire Line
+	5100 3900 5500 3900
+Wire Wire Line
+	5100 4200 5500 4200
+Wire Wire Line
+	5100 4500 5500 4500
+Wire Wire Line
+	5900 4200 6150 4200
+Wire Wire Line
+	6450 4200 6600 4200
 $EndSCHEMATC
