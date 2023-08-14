@@ -1,4 +1,7 @@
-# FreeDSP-FreeUSBi_Programmer_hybrid_version
+# FreeDSP-FreeUSBi_Programmer_hybrid_version　　
+
+![Photo](https://raw.githubusercontent.com/CyberPit/FreeDSP-FreeUSBi_Programmer_hybrid_version/master/Photo/FreeUSBi_3D.png)  
+
 This is another layout PCB design of FreeUSBi.
 Component Layout had Changed, selectable parts type (SMD or TH)
 Please see the images in the "Photo" directory to see the differences.
