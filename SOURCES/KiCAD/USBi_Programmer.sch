@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:USBi_Programmer-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "freeUSBi V0.4"
-Date "2019-05-11"
-Rev "0.4"
+Title "freeUSBi V0.5"
+Date "2025-05-03"
+Rev "0.5"
 Comp "www.freedsp.cc"
 Comment1 "www.creativecommons.org/licenses/by-sa/4.0/legalcode"
 Comment2 ""
@@ -488,8 +487,6 @@ Text GLabel 5100 5050 0    51   Input ~ 0
 CCLK
 Text GLabel 5100 4950 0    51   Input ~ 0
 COUT
-Text GLabel 5100 4200 0    51   Input ~ 0
-USB_PWR_ON
 Text GLabel 8300 4400 2    51   Input ~ 0
 CDATA
 Text GLabel 2900 2550 0    51   BiDi ~ 0
@@ -530,7 +527,7 @@ L power:+3.3V #PWR08
 U 1 1 55DE5316
 P 5050 2850
 F 0 "#PWR08" H 5050 2700 50  0001 C CNN
-F 1 "+3.3V" V 5050 2990 50  0000 L TNN
+F 1 "+3.3V" V 5025 2950 50  0000 L TNN
 F 2 "" H 5050 2850 60  0000 C CNN
 F 3 "" H 5050 2850 60  0000 C CNN
 	1    5050 2850
@@ -833,11 +830,34 @@ Wire Wire Line
 Wire Wire Line
 	5100 3900 5500 3900
 Wire Wire Line
-	5100 4200 5500 4200
-Wire Wire Line
 	5100 4500 5500 4500
 Wire Wire Line
 	5900 4200 6150 4200
 Wire Wire Line
 	6450 4200 6600 4200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 68153F4C
+P 4925 4050
+F 0 "#PWR?" H 4925 3900 50  0001 C CNN
+F 1 "+3.3V" V 4900 4150 50  0000 L TNN
+F 2 "" H 4925 4050 60  0000 C CNN
+F 3 "" H 4925 4050 60  0000 C CNN
+	1    4925 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4925 4050 5200 4050
+Wire Wire Line
+	5200 4050 5200 4200
+Wire Wire Line
+	5200 4200 5500 4200
+Wire Notes Line
+	4650 4000 4375 3750
+Wire Notes Line
+	4375 3750 4275 3750
+Text Notes 3150 3800 0    79   ~ 16
+JUMP to P1 pin20
+Text Notes 2625 3650 0    48   ~ 0
+Some FX2 board has an Non-bootable issue\nCause of I2C SDA voltage droped during boot.
 $EndSCHEMATC
