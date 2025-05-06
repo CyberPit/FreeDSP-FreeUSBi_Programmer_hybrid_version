@@ -4,10 +4,10 @@
 
 This is another PCB layout design of FreeUSBi.  
 Component Layout had changed, Voltage-shifter design changed, selectable parts type capability (SMD or TH)
-Please see the images in the "Photo" directory to see the differences.  
+Please see the images in the "Photo" directory for differences.  
   
-## Issue on some CY7C68013A boards.
-Some CY7C68013A boards can not boot when connected USBi board. The reason is that the SDA line of the I2C bus voltage dropped during the boot sequence. The Voltage-Shifter circuit control line was not tied to 3.3V because the uP has not run yet. So, the version 0.5 design connects to a regulated 3.3V line. According to this change, the I2C line is pulled up to 3.3V anytime USB is connected.  
+## Issue found on some CY7C68013A boards.
+Some CY7C68013A boards can not boot when connected to a FreeUSBi board. The reason is that the SDA line of the I2C bus voltage dropped during the boot sequence. The Voltage-Shifter circuit control line and I2C pull-up circuit were not tied to 3.3V because the uP has not run yet. So, the version 0.5 design connects them to a regulated 3.3V line. According to this change, the I2C line is pulled up to 3.3V anytime a USB is connected.  
   
 ## For Windows 10 users, Info:
 Some machines were not able to run the official FreeUSBi driver.  
