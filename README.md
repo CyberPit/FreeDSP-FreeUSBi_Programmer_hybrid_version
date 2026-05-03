@@ -1,5 +1,6 @@
 # FreeDSP-FreeUSBi_Programmer_hybrid_version　　
-![USBi_Programmer_0v5](https://github.com/user-attachments/assets/68d7a9d3-1c32-4895-a1cc-66435c542b67)
+
+<img width="1728" height="1484" alt="FreeUSBi" src="https://github.com/user-attachments/assets/78eb8966-cc50-4e42-a6b4-477568b9a969" />
 
 
 This is another PCB layout design of FreeUSBi.  
