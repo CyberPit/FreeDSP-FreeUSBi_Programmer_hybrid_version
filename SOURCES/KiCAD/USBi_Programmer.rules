@@ -4,14 +4,14 @@
     fortyfive_degree
   )
   (autoroute_settings
-    (fanout off)
+    (fanout on)
     (autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 721)
+    (start_pass_no 749)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -65,7 +65,10 @@
   (class "kicad_default"
     GND +5VD "Net-(D1-Pad1)" +3V3 "Net-(D2-Pad1)" "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(P1-Pad5)"
     SCL SDA "Net-(P1-Pad15)" "LED_1" "LED_2" "LED_3" "Net-(P2-Pad1)" "USB_CLK"
-    "Net-(P2-Pad3)" COUT "BRD_~RESET" CCLK CDATA ~CLATCH1 "USB_PWR_ON"
+    "Net-(P2-Pad3)" COUT "BRD_~RESET" CCLK CDATA ~CLATCH1 "USB_PWR_ON" "Net-(P1-Pad19)"
+    "Net-(P1-Pad12)" "Net-(P1-Pad10)" "Net-(P1-Pad8)" "Net-(P1-Pad7)" "Net-(P1-Pad3)" "Net-(P1-Pad2)" "Net-(P1-Pad1)" "Net-(P4-Pad1)"
+    "Net-(P4-Pad2)" "Net-(P4-Pad3)" "Net-(P4-Pad4)" "Net-(P4-Pad5)" "Net-(P4-Pad7)" "Net-(P4-Pad8)" "Net-(P4-Pad9)" "Net-(P4-Pad10)"
+    "Net-(P4-Pad14)" "Net-(P4-Pad15)" "Net-(P4-Pad16)" "Net-(P4-Pad17)" "Net-(P4-Pad18)" "Net-(P4-Pad19)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
