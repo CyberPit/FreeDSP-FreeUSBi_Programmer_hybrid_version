@@ -5417,7 +5417,7 @@
 				)
 			)
 		)
-		(property "Value" "49R9"
+		(property "Value" "47R"
 			(at 81.28 54.61 90)
 			(effects
 				(font
@@ -5434,12 +5434,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 81.28 54.61 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -5499,12 +5500,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -5888,12 +5890,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -5953,12 +5956,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 67.31 125.73 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6018,12 +6022,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 67.31 139.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6190,7 +6195,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000055dd9079")
 		(property "Reference" "Q1"
-			(at 157.48 100.33 90)
+			(at 156.464 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,8 +6203,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
-			(at 167.005 102.87 90)
+		(property "Value" "2N7000"
+			(at 161.29 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,12 +6290,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 139.7 102.87 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6326,7 +6332,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000055dd9a11")
 		(property "Reference" "Q2"
-			(at 155.575 113.03 90)
+			(at 155.956 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,8 +6340,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
-			(at 170.815 115.57 90)
+		(property "Value" "2N7000"
+			(at 160.782 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,12 +6427,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 139.7 110.49 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6610,12 +6617,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 67.31 153.67 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -6991,12 +6999,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Any type of resistor is available"
 			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7187,12 +7196,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "At least single Wire Connection Required(+5V)"
+		(property "Datasheet" "At least single Wire Connection Required(EZ-USB's +5V)"
 			(at 218.44 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
